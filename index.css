@@ -1,3 +1,9 @@
+.center{
+    text-align:center;
+}
+
+
+
 /* -----NAVBAR----- */
 
 .navbar{
@@ -135,5 +141,43 @@
 .block-2 .item-4{
     margin-left:50px;
 }
+/*--------------------------------------------------------*/
 
-  
+.block-3 .center h2{
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 0.733);
+    font-size:45px;
+    font-weight: 700;
+    margin-bottom:15px;
+}
+.block-3 .center hr{
+    width:10%;
+    border:1px solid #ff3f40;
+    margin-bottom:50px;
+}
+.block-3 .center a{
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 0.733);
+    font-size:22px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .4s;
+}
+.block-3 .center a:not(:last-child){
+    margin-right:50px;
+}
+.block-3 .center a:hover{
+    color:#ff3f40;
+}
+.block-3 .images-blocks{
+    margin-top:25px;
+    margin-bottom:100px;
+}
+.block-3 .images-blocks .image{
+    width:100%;
+    height: 300px;
+    background: rgba(255, 166, 0, 0.199);
+}
+.block-3 .images-blocks .col{
+    margin:10px;
+}
