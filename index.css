@@ -1,4 +1,5 @@
 /* -----NAVBAR----- */
+
 .navbar{
     z-index:2; 
     top:25px;
@@ -20,7 +21,9 @@
     color:#f6f2f1 !important;
     line-height: 80px;
   }
+
 /*-------------------------*/
+
 .container{
     max-width:85%;
 }
@@ -29,6 +32,7 @@
     background:#f6f2f1;
     width:100%; 
     padding-bottom:100px;
+    margin-bottom:75px;
 }
 .container-nav h1{
     font-size:65px; 
@@ -46,7 +50,7 @@
     width:70%;
     margin-bottom:50px;
 }
-.container-nav .btn{
+.container-nav input[type=button]{
     color:white;
     border-radius: 5px;
     background: #ff3f40;
@@ -58,9 +62,12 @@
     transition-property:box-shadow;
     outline: none !important;
     box-shadow:none;
+    border:none;
 }
-.container-nav .btn:hover{
+.container-nav input[type=button]:hover{
     box-shadow: 0px 0px 25px -1px #ff3f40;
+    -webkit-box-shadow: 0px 0px 25px -1px #ff3f40;
+    -moz-box-shadow: 0px 0px 25px -1px #ff3f40;
 }
 .row, .col{
     margin:0;
@@ -72,7 +79,61 @@
     box-shadow: -5px -5px 52px -1px rgba(0,0,0,0.44);
 }
 
-
-
+/*----------------------------------------------------------*/
+.block-2{
+    border-bottom:2px solid rgba(0, 0, 0, 0.1);
+    padding-bottom:50px;
+    margin-bottom:75px;
+}
+.block-2 h2{
+    color:rgba(0, 0, 0, 0.733);
+    font-size:45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom:30px;
+}
+.block-2 p{
+    width:70%;
+    margin-bottom:30px;
+}
+.block-2 input[type=button]{
+    color:#ff3f40;
+    border-radius: 5px;
+    background: white;
+    font-size:18px;
+    font-weight: 500;
+    width:30%;
+    padding: 10px 20px 10px 20px;
+    transition-duration: .4s;
+    outline: none !important;
+    border:3px solid #ff3f40;
+}
+.block-2 input[type=button]:hover{
+    background: #ff3f40;
+    color:white;
+}
+.block-2 .fas{
+    color:#ff3f40;
+    font-size:35px;
+    margin-bottom:15px;
+    line-height: 50px;
+}
+.block-2 h3{
+    color:rgba(0, 0, 0, 0.603);
+}
+.block-2  p{
+    color:rgba(0, 0, 0, 0.603);
+    
+}
+.block-2 .item-1 p,
+.block-2 .item-2 p,
+.block-2 .item-3 p,
+.block-2 .item-4 p{
+    width:90%;
+}
+.block-2 .item-2,
+.block-2 .item-4{
+    margin-left:50px;
+}
 
   
