@@ -430,3 +430,35 @@ a:hover{
 .block-6 .contact-info span:nth-child(4){
     margin-bottom:15px;
 }
+
+/*-----------------------------*/
+
+footer{
+    background: rgba(49,48,48);
+    padding:40px 0;
+    color: rgb(192, 192, 192);   
+}
+
+footer .logos{
+    text-align:right;
+    font-size:22px;
+    margin:0;
+    padding:0;
+}
+
+footer .logos i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(49,48,48);
+    background:white;
+    border-radius: 50%;
+    margin-right:5px;
+    transition-duration: .4s;
+    transition-property: color;
+}
+
+footer .logos i:hover{
+    color:#ff3f40;
+}
