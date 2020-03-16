@@ -50,9 +50,8 @@ a:hover{
   }
 
   .nav-item{
-    padding:0 25px;
+    padding:0 35px;
     transition-duration: 0.4s;
-    
   }
   .nav-item:hover{
     background:#ff3f40 !important;
@@ -114,7 +113,10 @@ a:hover{
     -webkit-box-shadow: -5px -5px 52px -1px rgba(0,0,0,0.44);
     -moz-box-shadow: -5px -5px 52px -1px rgba(0,0,0,0.44);
     box-shadow: -5px -5px 52px -1px rgba(0,0,0,0.44);
+    margin-right:15px;
+
 }
+
 
 /*--------------------BLOCK-2--------------------------------------*/
 .block-2{
@@ -431,6 +433,7 @@ a:hover{
 .block-6 textarea{
     height: 250px;
     margin:50px 0px;
+    min-height: 250px;
 }
 
 .block-6 input[type=button]{
